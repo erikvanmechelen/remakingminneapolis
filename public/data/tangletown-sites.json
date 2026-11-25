@@ -1,0 +1,182 @@
+{
+  "type": "FeatureCollection",
+  "name": "tangletown-sites-v1",
+  "neighborhood": "Tangletown",
+  "city": "Minneapolis",
+  "crs": "EPSG:4326",
+  "meta": {
+    "dataset": "working",
+    "immutableArchive": "Larry Millett LTC Finals — Hennepin County Library Special Collections",
+    "notes": "Editable working dataset for the Old Twin Cities Tangletown prototype. Most Tangletown pins are NEW co-gathered working data beyond Millett; provenance fields link when an archive row exists."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "washburn-water-tower",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.2842828, 44.9107594]
+      },
+      "properties": {
+        "slug": "washburn-water-tower",
+        "title": "Washburn Park Water Tower",
+        "shortLabel": "The Tower",
+        "icon": "tower",
+        "address": "401 Prospect Avenue, Minneapolis, MN 55419",
+        "neighborhood": "Tangletown",
+        "status": "surviving",
+        "dates": "1893–present",
+        "architect": "Harry Wild Jones; sculptural figures by John K. Daniels",
+        "blurb": "A stone lantern on the ridge — eight guardians holding the sky. Built as working water infrastructure; now a neighborhood landmark that still feels like covered old tech.",
+        "story": {
+          "hook": "Eight figures keep watch from the ridge.",
+          "body": "In 1893 the Washburn Park Water Tower rose above Tangletown’s tangle of streets. Harry Wild Jones designed a working reservoir dressed as a medieval keep; sculptor John K. Daniels gave it eight guardians — knights of civic water. The pumps are quiet now, but the tower still reads like a piece of lost city machinery left standing in plain sight.",
+          "wonder": "What other towers once threaded water, light, or signal through the ridge — and what still hides under renovations?"
+        },
+        "thenNow": {
+          "then": {
+            "label": "Then · 1893",
+            "caption": "Working water tower: reservoir, pumps, and a skyline statement for Washburn Park.",
+            "placeholder": "then-tower"
+          },
+          "now": {
+            "label": "Now · 2026",
+            "caption": "Landmark and neighborhood icon. Infrastructure retired; the form remains.",
+            "placeholder": "now-tower"
+          }
+        },
+        "discoveryRadiusM": 150,
+        "reward": {
+          "id": "shard-tower",
+          "title": "Ridge Lantern",
+          "detail": "You found the tower that once held the neighborhood’s water — and still holds its silhouette."
+        },
+        "provenance": {
+          "sourceKind": "working-new",
+          "millettMatch": null,
+          "millettNote": "No Tangletown water-tower row found in Larry-Millett_MPLSLTCFINAL.xlsx during v1 scan. Working pin co-added for Tangletown prototype.",
+          "geocode": {
+            "provider": "Nominatim/OpenStreetMap",
+            "query": "Washburn Park Water Tower, Minneapolis, MN",
+            "retrieved": "2026-11-25"
+          },
+          "attribution": "Site research for Old Twin Cities working dataset. Millett LTC archive remains separate and immutable (Hennepin County Library Special Collections)."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "justice-page-washburn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.280352, 44.913425]
+      },
+      "properties": {
+        "slug": "justice-page-washburn",
+        "title": "Justice Page / Washburn High",
+        "shortLabel": "The Schools",
+        "icon": "dome",
+        "address": "1–201 West 49th Street, Minneapolis, MN 55419",
+        "neighborhood": "Tangletown",
+        "status": "altered",
+        "dates": "Campus era layered; Washburn High opened 1925; Justice Page (formerly Ramsey) on the same ridge block",
+        "architect": "Multiple eras",
+        "blurb": "Two school houses on one ridge — and a whispered older care. Local lore points toward a possible Washburn orphan asylum thread under the modern campus story.",
+        "story": {
+          "hook": "Where classrooms stand, older care may have stood.",
+          "body": "Justice Page Middle School and Washburn High share the Tangletown ridge along West 49th. The buildings you see are school architecture of the twentieth century — but neighbors pass down a softer question: did a Washburn orphan asylum once claim ground near here? The map marks the cluster as altered ground: surviving institutions on possibly older social footprint. Contested memory stays quiet until you ask.",
+          "wonder": "If an asylum stood nearby, what traces remain in plats, photographs, or family stories — and what was paved over?"
+        },
+        "thenNow": {
+          "then": {
+            "label": "Then · possible asylum era",
+            "caption": "Placeholder for orphan-asylum / early institutional footprint — lore under research, not settled fact.",
+            "placeholder": "then-schools"
+          },
+          "now": {
+            "label": "Now · campus ridge",
+            "caption": "Justice Page Middle School and Washburn High School occupy the ridge block today.",
+            "placeholder": "now-schools"
+          }
+        },
+        "relatedCoords": {
+          "justicePage": [-93.2789714, 44.9134852],
+          "washburnHigh": [-93.2817327, 44.9133642]
+        },
+        "discoveryRadiusM": 150,
+        "reward": {
+          "id": "shard-schools",
+          "title": "Ridge Ledger",
+          "detail": "You found the school ridge — and unlocked the soft question about who was cared for here before."
+        },
+        "provenance": {
+          "sourceKind": "working-new",
+          "millettMatch": null,
+          "millettNote": "No Justice Page / Washburn High / orphan-asylum Tangletown rows found in Millett Minneapolis LTC during v1 scan. Working pin co-added; asylum link is contested lore for gentle exploration.",
+          "geocode": {
+            "provider": "Nominatim/OpenStreetMap",
+            "query": "midpoint of Justice Page Middle School and Washburn High School, Minneapolis, MN",
+            "justicePage": [44.9134852, -93.2789714],
+            "washburnHigh": [44.9133642, -93.2817327],
+            "retrieved": "2026-11-25"
+          },
+          "attribution": "Working dataset for Old Twin Cities. Contested history presented as wonder, not decree."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "st-johns-lutheran",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.2784751, 44.9146942]
+      },
+      "properties": {
+        "slug": "st-johns-lutheran",
+        "title": "St. John's Lutheran Church",
+        "shortLabel": "The Church",
+        "icon": "pinnacle",
+        "address": "4842 Nicollet Avenue, Minneapolis, MN 55419",
+        "neighborhood": "Tangletown",
+        "status": "surviving",
+        "dates": "Neighborhood congregation on Nicollet, just north of Justice Page",
+        "architect": "Unknown / multiple eras",
+        "blurb": "A pinnacle on Nicollet, a short walk north of the school ridge. Neighbor lore whispers of tunnels — passages that may or may not have linked church and campus underground.",
+        "story": {
+          "hook": "North of the schools, a steeple and a rumor.",
+          "body": "St. John’s Lutheran sits on Nicollet Avenue, just north of Justice Page. In Tangletown walks, people still trade the tunnel story: a passage under the ridge, connecting sacred ground to school ground — escape route, utility trench, or pure neighborhood myth. The map doesn’t prove the tunnel. It invites you to stand here and wonder what the ground remembers.",
+          "wonder": "If a tunnel existed, where would its mouths be — and what else travels under Tangletown’s tangle?"
+        },
+        "thenNow": {
+          "then": {
+            "label": "Then · rumor layer",
+            "caption": "Placeholder for tunnel lore: possible underground link toward the school ridge.",
+            "placeholder": "then-church"
+          },
+          "now": {
+            "label": "Now · street face",
+            "caption": "Active church on Nicollet. The tunnel remains an open neighborhood question.",
+            "placeholder": "now-church"
+          }
+        },
+        "discoveryRadiusM": 150,
+        "reward": {
+          "id": "shard-church",
+          "title": "Nicollet Whisper",
+          "detail": "You found the church north of the schools — and the soft tunnel rumor that travels with it."
+        },
+        "provenance": {
+          "sourceKind": "working-new",
+          "millettMatch": null,
+          "millettNote": "St. John's Lutheran (Tangletown / 4842 Nicollet) not matched to a Millett Churches tab row in v1 scan (archive St. John's entries are elsewhere in the city). Working pin co-added for Tangletown sample.",
+          "geocode": {
+            "provider": "Nominatim/OpenStreetMap",
+            "query": "St. John's Lutheran Church, 4842 Nicollet Avenue, Minneapolis",
+            "retrieved": "2026-11-25"
+          },
+          "attribution": "Working dataset. Tunnel lore is neighborhood oral tradition — present gently, not as settled archive fact."
+        }
+      }
+    }
+  ]
+}
