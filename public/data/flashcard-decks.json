@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "name": "tangletown-flashcard-decks-v1",
+    "neighborhood": "Tangletown",
+    "city": "Minneapolis",
+    "dataset": "working",
+    "immutableArchive": "Larry Millett LTC Finals — Hennepin County Library Special Collections",
+    "notes": "Photo decks for the Old Twin Cities flashcard prototype. Tangletown sites are mostly working-new (no matching Millett LTC rows in v1 scan). Historic photos from Wikimedia Commons (PD/CC) and Hennepin County Library Digital Collections (NoC-US) are attributed per card. Placeholders labeled WORKING · NEW await co-gathered photos."
+  },
+  "decks": [
+    {
+      "id": "washburn-water-tower",
+      "title": "Washburn Park Water Tower",
+      "shortLabel": "The Tower",
+      "tagline": "Eight guardians on the ridge",
+      "address": "401 Prospect Avenue, Minneapolis, MN 55419",
+      "status": "surviving",
+      "dates": "1931–32–present",
+      "coverImage": "/images/tower/ridge-sky.jpg",
+      "cards": [
+        {
+          "id": "tower-ridge",
+          "image": "/images/tower/ridge-sky.jpg",
+          "caption": "A stone lantern on Tangletown’s ridge — working water dressed as covered old tech.",
+          "era": "now",
+          "sourceKind": "commons-cc",
+          "attribution": "Raggedkompany / Wikimedia Commons (CC BY-SA 3.0)"
+        },
+        {
+          "id": "tower-guardian",
+          "image": "/images/tower/guardian-full.jpg",
+          "caption": "Harry Wild Jones gave the neighborhood a medieval keep; John K. Daniels gave it knights of civic water.",
+          "era": "now",
+          "sourceKind": "commons-pd",
+          "attribution": "Dane Swanson / Wikimedia Commons (public domain)"
+        },
+        {
+          "id": "tower-detail",
+          "image": "/images/tower/guardian-detail.jpg",
+          "caption": "Eighteen-foot figures of Health keep watch at the base — infrastructure as wonder.",
+          "era": "now",
+          "sourceKind": "commons-pd",
+          "attribution": "Dane Swanson / Wikimedia Commons (public domain)"
+        },
+        {
+          "id": "tower-sculpture",
+          "image": "/images/tower/sculpture-profile.jpg",
+          "caption": "Eagles crown the ribs near the dome. What other signals once threaded this hill?",
+          "era": "now",
+          "sourceKind": "commons-cc",
+          "attribution": "McGhiever / Wikimedia Commons (CC BY-SA 4.0)"
+        },
+        {
+          "id": "tower-dome",
+          "image": "/images/tower/dome-lantern.jpg",
+          "caption": "Built 1931–32 with Hewitt’s prestressed concrete tank. The pumps are quiet; the silhouette remains.",
+          "era": "now",
+          "sourceKind": "commons-cc",
+          "attribution": "Bmjabbar / Wikimedia Commons (CC BY-SA 3.0)"
+        },
+        {
+          "id": "tower-historic-a",
+          "image": "/images/tower/historic-dpla-a.jpg",
+          "caption": "Earlier views of the tower still read like a piece of lost city machinery left standing in plain sight.",
+          "era": "then",
+          "sourceKind": "commons-pd",
+          "attribution": "DPLA / Wikimedia Commons (public domain)"
+        },
+        {
+          "id": "tower-historic-b",
+          "image": "/images/tower/historic-dpla-b.jpg",
+          "caption": "Landmark, neighborhood icon, unofficial beacon — still holding Tangletown’s skyline.",
+          "era": "then",
+          "sourceKind": "commons-pd",
+          "attribution": "DPLA / Wikimedia Commons (public domain)"
+        }
+      ],
+      "provenance": {
+        "sourceKind": "working-new",
+        "millettMatch": null,
+        "millettNote": "No Tangletown water-tower row found in Larry-Millett_MPLSLTCFINAL.xlsx during prototype scan.",
+        "attribution": "Working dataset for Old Twin Cities. Millett LTC archive remains separate (HCL Special Collections)."
+      }
+    },
+    {
+      "id": "justice-page-washburn",
+      "title": "Justice Page / Washburn High",
+      "shortLabel": "The Schools",
+      "tagline": "Where classrooms stand, older care may have stood",
+      "address": "1–201 West 49th Street, Minneapolis, MN 55419",
+      "status": "altered",
+      "dates": "Orphan asylum era → Washburn High 1925 → Ramsey / Justice Page",
+      "coverImage": "/images/schools/aerial-1929-hcl.jpg",
+      "cards": [
+        {
+          "id": "schools-aerial-1929",
+          "image": "/images/schools/aerial-1929-hcl.jpg",
+          "caption": "1929: Washburn High from the air — and in the lower right, the orphanage that Ramsey would soon replace.",
+          "era": "then",
+          "sourceKind": "hcl-noc-us",
+          "attribution": "Joseph E. Quigley / Hennepin County Library Digital Collections (NoC-US). MPS06805."
+        },
+        {
+          "id": "schools-asylum",
+          "image": "/images/schools/asylum-lore.jpg",
+          "caption": "C. C. Washburn’s memorial orphan asylum once claimed this ridge. Soft lore, still being gathered — not a finished decree.",
+          "era": "then",
+          "sourceKind": "working-new",
+          "attribution": "Working · new placeholder. Co-gather a historic asylum photograph."
+        },
+        {
+          "id": "schools-transition",
+          "image": "/images/schools/orphan-to-school.jpg",
+          "caption": "Torn down around 1929; a junior high rose on the care-house ground. Altered footprint, living campus.",
+          "era": "then",
+          "sourceKind": "working-new",
+          "attribution": "Working · new placeholder for the transition layer."
+        },
+        {
+          "id": "schools-campus-2007",
+          "image": "/images/schools/campus-air-2007.jpg",
+          "caption": "Washburn High and its field from above — twentieth-century school architecture on older social ground.",
+          "era": "now",
+          "sourceKind": "commons-cc",
+          "attribution": "edkohler / Wikimedia Commons (CC BY 2.0)"
+        },
+        {
+          "id": "schools-campus-now",
+          "image": "/images/schools/campus-now.jpg",
+          "caption": "Justice Page Middle School and Washburn High share the ridge today. Ask gently what the plats remember.",
+          "era": "now",
+          "sourceKind": "working-new",
+          "attribution": "Working · new placeholder. Co-gather a street-level campus photo."
+        }
+      ],
+      "provenance": {
+        "sourceKind": "working-new",
+        "millettMatch": null,
+        "millettNote": "No Justice Page / Washburn High / orphan-asylum Tangletown rows found in Millett Minneapolis LTC during scan. Asylum link is neighborhood history under soft exploration.",
+        "attribution": "Working dataset. Contested history presented as wonder, not decree. HCL Special Collections credited on archive photos."
+      }
+    },
+    {
+      "id": "st-johns-lutheran",
+      "title": "St. John's Lutheran Church",
+      "shortLabel": "The Church",
+      "tagline": "A steeple on Nicollet — and a tunnel rumor",
+      "address": "4842 Nicollet Avenue, Minneapolis, MN 55419",
+      "status": "surviving",
+      "dates": "Neighborhood congregation north of the school ridge",
+      "coverImage": "/images/church/steeple-now.jpg",
+      "cards": [
+        {
+          "id": "church-steeple",
+          "image": "/images/church/steeple-now.jpg",
+          "caption": "North of Justice Page, a pinnacle on Nicollet. Stand here and the school ridge is a short walk south.",
+          "era": "now",
+          "sourceKind": "working-new",
+          "attribution": "Working · new placeholder. Co-gather a clear exterior photograph."
+        },
+        {
+          "id": "church-neighbors",
+          "image": "/images/church/baccalaureate.jpg",
+          "caption": "In the 1930s, Washburn seniors walked here for baccalaureate. Church and campus have long shared the ridge’s calendar.",
+          "era": "then",
+          "sourceKind": "working-new",
+          "attribution": "Working · new placeholder. Inspired by Washburn Grist mentions (HCL school publications)."
+        },
+        {
+          "id": "church-tunnel",
+          "image": "/images/church/tunnel-whisper.jpg",
+          "caption": "Neighbor lore whispers of a passage under the ridge — sacred ground to school ground. Myth, utility, or memory?",
+          "era": "lore",
+          "sourceKind": "working-new",
+          "attribution": "Working · new. Tunnel lore is oral tradition — present gently, not as archive fact."
+        },
+        {
+          "id": "church-under",
+          "image": "/images/church/under-ridge.jpg",
+          "caption": "The map does not prove the tunnel. It invites you to wonder what else travels under Tangletown’s tangle.",
+          "era": "lore",
+          "sourceKind": "working-new",
+          "attribution": "Working · new exploration card."
+        }
+      ],
+      "provenance": {
+        "sourceKind": "working-new",
+        "millettMatch": null,
+        "millettNote": "St. John's Lutheran (4842 Nicollet / Tangletown) not matched to a Millett Churches tab row (archive St. John's entries are elsewhere in the city).",
+        "attribution": "Working dataset. Tunnel lore is neighborhood oral tradition."
+      }
+    }
+  ]
+}
